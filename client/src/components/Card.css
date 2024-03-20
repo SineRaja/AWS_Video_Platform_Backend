@@ -1,0 +1,65 @@
+.card-container{
+    width: 380px;
+    height: 340px;
+    margin:25px 15px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
+    gap: 10px;
+}
+
+.card-image-style{
+    width: 100%;
+    height: 220px !important;
+    background-color: #999;
+    flex: 1;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-details{
+    display: flex;
+    margin: 12px 0px;
+    gap: 12px;
+    padding: 0px 20px;
+    flex-direction: row;
+    flex: 1;
+    
+}
+
+.details2{
+    display: flex;
+    flex-direction: column;
+}
+
+.card-channel-image{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: #999;
+}
+
+.card-videotitle{
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(8, 174, 180);
+
+}
+
+.channel-name{
+    font-size: 14px;
+    color:rgb(36, 32, 32);
+    margin: 9px 0px;
+    max-width: 300px; 
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: ellipsis; 
+
+}
+
+.video-info{
+    font-size: 14px;
+    color: rgb(8, 0, 0);
+}

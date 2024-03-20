@@ -1,0 +1,109 @@
+.contact-sec {
+  align-items: center;
+  display: flex;
+  width: 80%;
+  position: fixed;
+  height: 80vh;
+  background-color: #ffffff;
+  margin: 50px;
+  padding: 20px;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;  border-radius: 20px;
+  font-family:  'Montserrat', sans-serif;
+}
+
+.contactus-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.contacut-us-details{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.contacut-us-form-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+ul {
+    list-style: none;
+  }
+  
+  .contactus-input {
+    overflow: hidden;
+  }
+  
+  .section-title {
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+.contact-ul li,
+.contact-ul b {
+  font-size: 20px;
+  margin: 10px 0;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  word-wrap: break-word;
+}
+.contact-ul i {
+  font-size: 18px;
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 50%;
+
+}
+.contact-detail a {
+  color: #dfdfdf;
+  text-decoration: none;
+}
+
+.contact-ul li b:hover {
+  color: rgb(15, 247, 255);
+}
+
+
+.contacut-us-inptFld {
+	background-color: #eee;
+	border: none;
+	padding: 12px 15px;
+	margin: 8px 0;
+	width: 200%;
+    color: #333;
+
+}
+
+.inptFld:focus {
+  outline-offset: -4px;
+  outline: 1px solid #f93;
+}
+
+.contacut-us-form textarea {
+  height: 75px;
+  padding-top: 5px;
+}
+.contactus-submit {
+	border-radius: 20px;
+	border: 1px solid #2bf8ff;
+	background-color: #2bf8ff;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+  width: 100%;
+	padding: 12px 45px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
+    cursor: pointer;
+}
